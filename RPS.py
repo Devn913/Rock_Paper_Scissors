@@ -23,7 +23,7 @@ while game_continue == 'y':
 		user_input = input('Input your move Rock / Paper / Scissors : ').lower()
 		if(user_input == computer_input):
 			print('This is a tie. ')
-			printf('The computer input is {computer_input}')
+			print(f'The computer input is {computer_input}')
 		elif(user_input == 'rock'):
 			if(computer_input == 'paper'):
 				print(f'You Lose ! The computer played {computer_input}')
